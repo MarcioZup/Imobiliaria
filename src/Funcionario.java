@@ -11,10 +11,6 @@ public class Funcionario extends Pessoa{
         this.numeroDoCreci = numeroDoCreci;
     }
 
-    public double getNumeroDoCreci() {
-        return numeroDoCreci;
-    }
-
     public void setNumeroDoCreci(double numeroDoCreci) {
         this.numeroDoCreci = numeroDoCreci;
     }

@@ -2,10 +2,6 @@ public class Morador extends Pessoa{
 
     private int tempoDeContrato;
 
-    public Morador(int tempoDeContrato) {
-        this.tempoDeContrato = tempoDeContrato;
-    }
-
     public Morador(String nome, String cpf, double salario, int tempoDeContrato) {
         super(nome, cpf, salario);
         this.tempoDeContrato = tempoDeContrato;

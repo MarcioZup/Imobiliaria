@@ -42,13 +42,17 @@ public class Imovel {
         return moradores;
     }
 
+    public void adicionaMorador(Morador novoMorador){
+        moradores.add(novoMorador);
+    }
+
     @Override
     public String toString() {
         StringBuilder retorno = new StringBuilder();
-        retorno.append("Endereço: " + endereco);
-        retorno.append(" Valor do aluguel: R$ " + aluguel);
-        retorno.append(" Moradores: " + getMoradores());
-        retorno.append(" Funcionário responsável: " + getFuncionarioresponsavel());
+        retorno.append("\nEndereço: " + endereco);
+        retorno.append("\nValor do aluguel: R$ " + aluguel);
+        retorno.append("\nMoradores: " + getMoradores());
+        retorno.append("\nFuncionário responsável: " + getFuncionarioresponsavel());
         return retorno.toString();
     }
 }

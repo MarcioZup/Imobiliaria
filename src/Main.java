@@ -6,5 +6,8 @@ public class Main {
         Imovel imovel1 = new Imovel("Rua X", 800, funcionario1);
         imovel1.adicionaMorador(morador1);
         System.out.println(imovel1.toString());
+        Imobiliaria imobiliaria1 = new Imobiliaria();
+        imobiliaria1.adicionaImoveis(imovel1);
+        System.out.println(imobiliaria1.toString());
     }
 }
